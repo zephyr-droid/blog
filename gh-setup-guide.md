@@ -76,7 +76,7 @@ git config --global init.defaultBranch main
    git add README.md && git commit -m "feat: add readme"
    ```
 
-3. 将更改推送到您的分支：
+3. 推送更改：
    
    ```shell
    git push --set-upstream origin main
