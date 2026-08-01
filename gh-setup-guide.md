@@ -1,6 +1,6 @@
 # GitHub Setup Guide
 
-这篇文章记录了CachyOS配置GitHub仓库的基本流程。
+本文记录了我在CachyOS上配置GitHub仓库的基本流程。
 
 ## 目录
 
