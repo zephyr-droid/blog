@@ -4,11 +4,11 @@
 
 ## 目录
 
-- [安装Github CLI](#github-cli)
+- [安装Github CLI](#安装github-cli)
 
-- [生成新SSH密钥](#ssh)
+- [生成新SSH密钥](#生成新ssh密钥)
 
-- [将SSH密钥添加到ssh代理](#sshssh)
+- [将SSH密钥添加到ssh代理](#将ssh密钥添加到ssh代理)
 
 - [身份验证](#身份验证)
 
