@@ -8,6 +8,8 @@
 
 - [资源包](#资源包)
 
+- [光影包](#光影包)
+
 ## 模组
 
 - [AppleSkin](https://modrinth.com/mod/appleskin)
