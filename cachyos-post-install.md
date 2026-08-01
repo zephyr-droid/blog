@@ -213,7 +213,7 @@ sudo pacman -S paru
 然后用AUR助手从ArchLinuxCN社区仓库获取软件包：
 
 ```shell
-
+paru ttf-maplemono-nf-cn-unhinted
 ```
 
 ### Flatpak
