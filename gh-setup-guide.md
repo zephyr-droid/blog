@@ -18,6 +18,8 @@
 
 - [提交更改](#提交更改)
 
+- [删除仓库](#删除仓库)
+
 ## 安装GitHub CLI
 
 执行：
@@ -96,6 +98,20 @@ git config --global init.defaultBranch main
    
    ```shell
    git push --set-upstream origin main
+   ```
+
+## 删除仓库
+
+1. 删除操作需要授予`delete_repo`权限。要进行授权，执行：
+   
+   ```shell
+   gh auth refresh -s delete_repo
+   ```
+
+2. 要删除`owner/repo`仓库，执行：
+   
+   ```shell
+   gh repo delete owner/repo --yes
    ```
 
 ## 参考
