@@ -132,7 +132,7 @@ KDE应用的默认配置，不是很符合我个人的使用习惯。下面列�
 
 官方仓库的软件包数量有限，我们可以通过添加社区仓库，以此扩充可用的软件包来源。
 
-例如要添加[Arch Linux CN](https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/)，执行：
+例如要添加[ArchLinuxCN](https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/)，执行：
 
 ```shell
 printf '%s' '[archlinuxcn]
@@ -171,11 +171,9 @@ sudo pacman -Sy archlinuxcn-keyring
    为了让fcitx5能被正确识别并参与输入，需要设置相应的环境变量。执行以下命令，然后重新登录：
    
    ```shell
-   printf '%s' 'GTK_IM_MODULE=fcitx
-   QT_IM_MODULE=fcitx
-   XMODIFIERS=@im=fcitx
-   SDL_IM_MODULE=fcitx
-   GLFW_IM_MODULE=ibus
+   printf '%s' 'export XMODIFIERS=@im=fcitx
+   export GTK_IM_MODULE=fcitx
+   export QT_IM_MODULE=fcitx
    ' | sudo tee -a /etc/profile
    ```
 
@@ -199,6 +197,24 @@ sudo pacman -Sy archlinuxcn-keyring
    ```
    
    然后前往“系统设置，输入法，配置附加组件，经典用户界面”设置主题。
+
+### Nerd Fonts
+
+Nerd Fonts是包含大量图标的字体，主要用于终端显示。比如：Yazi。
+
+我推荐使用[Maple Mono](https://github.com/subframe7536/Maple-font)，中英文完美对齐且风格统一，应该是绝无仅有了。
+
+要安装Maple Mono，需要先安装AUR助手：
+
+```shell
+sudo pacman -S paru
+```
+
+然后用AUR助手从ArchLinuxCN社区仓库获取软件包：
+
+```shell
+
+```
 
 ### Flatpak
 
