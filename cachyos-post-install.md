@@ -1,7 +1,5 @@
 # CachyOS Post Install
 
-## 序
-
 CachyOS的默认设置需要进行调整，以优化其使用体验。
 
 ## 目录
@@ -161,17 +159,17 @@ sudo pacman -Sy archlinuxcn-keyring
 1. 安装
    基本的fcitx5安装包括：主程序、配置程序、输入法模块和输入法引擎。
    要安装这些组件，执行：
-
+   
    ```shell
    sudo pacman -S fcitx5-im fcitx5-rime
    ```
-
+   
    `fcitx5-im`包组提供主程序、配置程序和输入法模块。
    `fcitx5-rime`包提供[中州韵输入法引擎](https://rime.im/)。
 
 2. 环境变量
    为了让fcitx5能被正确识别并参与输入，需要设置相应的环境变量。执行以下命令，然后重新登录：
-
+   
    ```shell
    printf '%s' 'GTK_IM_MODULE=fcitx
    QT_IM_MODULE=fcitx
@@ -183,23 +181,23 @@ sudo pacman -Sy archlinuxcn-keyring
 
 3. 配置词库
    执行以下命令，获取[白霜拼音](https://github.com/gaboolic/rime-frost)并导入：
-
+   
    ```shell
    git clone --depth 1 https://github.com/gaboolic/rime-frost Rime
    cp -r Rime/* ~/.local/share/fcitx5/rime
    ```
-
+   
    按`Ctrl`+空格键切换输入法。右键任务栏的“中州韵”图标，进入“小地球”的菜单，重新部署。
 
 4. 主题美化
    为当前用户安装[Mellow](https://github.com/sanweiya/fcitx5-mellow-themes)主题：
-
+   
    ```shell
    git clone https://github.com/sanweiya/fcitx5-mellow-themes.git
    cd fcitx5-mellow-themes && mkdir -p ~/.local/share/fcitx5/themes
    cp -r ./mellow-* ~/.local/share/fcitx5/themes
    ```
-
+   
    然后前往“系统设置，输入法，配置附加组件，经典用户界面”设置主题。
 
 ### Flatpak
@@ -208,14 +206,14 @@ sudo pacman -Sy archlinuxcn-keyring
 
 1. 安装
    执行以下命令，然后重启：
-
+   
    ```shell
    sudo pacman -S flatpak
    ```
 
 2. 配置
    官方源的速度太慢了，建议更换其他镜像源：
-
+   
    ```shell
    sudo flatpak remote-modify flathub --url=https://mirrors.ustc.edu.cn/flathub
    ```
@@ -227,9 +225,9 @@ sudo pacman -Sy archlinuxcn-keyring
 第三方启动器我比较推荐[Prism Launcher](https://prismlauncher.org/)，它是开源的，且在Linux社区的讨论度较高，基本功能都有。目前用下来唯一的缺点是下载实例的速度较慢。可能是没有像[PCL](https://afdian.com/p/0164034c016c11ebafcb52540025c377)那样用多线程下载。
 
 1. 安装
-
+   
    建议用`flatpak`安装：
-
+   
    ```shell
    flatpak install flathub org.prismlauncher.PrismLauncher
    flatpak install flathub com.github.tchx84.Flatseal
