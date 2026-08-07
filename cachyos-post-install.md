@@ -200,7 +200,7 @@ sudo pacman -Sy archlinuxcn-keyring
 
 ### Nerd Fonts
 
-Nerd Fonts是包含大量图标的字体，主要用于终端显示。比如：Yazi。
+[Nerd Fonts](https://github.com/ericbaranowski/nerd-fonts/blob/master/readme_cn.md)是包含大量图标的字体，主要用于终端显示。比如：Yazi。
 
 我推荐使用[Maple Mono](https://github.com/subframe7536/Maple-font)，中英文完美对齐且风格统一，应该是绝无仅有了。
 
@@ -214,6 +214,16 @@ sudo pacman -S paru
 
 ```shell
 paru ttf-maplemono-nf-cn-unhinted
+```
+
+### Yazi
+
+[Yazi](https://yazi-rs.github.io/docs/installation/)是一个终端文件管理器。可以在终端中更加直观和快速的跳转目录。
+
+要安装Yazi及其依赖，执行：
+
+```shell
+sudo pacman -S --needed yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick xclip
 ```
 
 ### Flatpak
