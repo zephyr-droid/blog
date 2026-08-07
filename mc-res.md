@@ -1,6 +1,6 @@
 # MC Resources
 
-这则笔记整理了本人常用的Minecraft资源。
+常用的Minecraft资源。
 
 ## 目录
 
@@ -18,27 +18,29 @@
 
 - [ClientSort](https://modrinth.com/mod/clientsort)
 
-- [Easy Anvils](https://modrinth.com/mod/easy-anvils)
+- [Double Doors](https://modrinth.com/mod/double-doors)
 
-- [Easy Magic](https://modrinth.com/mod/easy-magic)
+- [Easy Anvils](https://modrinth.com/mod/easy-anvils)
 
 - [FallingTree](https://modrinth.com/mod/fallingtree)
 
 - [Farmer's Delight Refabricated](https://modrinth.com/mod/farmers-delight-refabricated)
 
-- [Illager Invasion](https://modrinth.com/mod/illager-invasion)
-
-- [Incendium Legacy](https://modrinth.com/datapack/incendium)
-
 - [Jade](https://modrinth.com/mod/jade)
 
 - [Just Enough Items (JEI)](https://modrinth.com/mod/jei)
 
+- [Litematica](https://modrinth.com/mod/litematica)
+
 - [MiniHUD](https://modrinth.com/mod/minihud)
 
-- [MVS - Moog's Voyager Structures](https://modrinth.com/mod/moogs-voyager-structures)
-
 - [Nature's Compass](https://modrinth.com/mod/natures-compass)
+
+- [RightClickHarvest](https://modrinth.com/mod/rightclickharvest)
+
+- [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage)
+
+- [Trade Cycling](https://modrinth.com/mod/trade-cycling)
 
 - [TrashSlot](https://modrinth.com/mod/trashslot)
 
@@ -48,6 +50,8 @@
 
 - [VeinMiner](https://modrinth.com/mod/veinminer)
 
+- [Visible Traders](https://modrinth.com/mod/visible-traders)
+
 - [Waystones](https://modrinth.com/mod/waystones)
 
 - [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
@@ -56,9 +60,7 @@
 
 ## 资源包
 
-- [New Glowing Ores](https://modrinth.com/resourcepack/new-glowing-ores)
-
-- [Sparkles: Stardust Labs Resourcepack](https://modrinth.com/resourcepack/sparkles)
+- [XK Redstone Display](https://modrinth.com/resourcepack/xk-redstone-display)
 
 ## 光影包
 
