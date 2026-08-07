@@ -1,6 +1,6 @@
 # GitHub Setup Guide
 
-本文记录了我在CachyOS上配置GitHub仓库的基本流程。
+我在CachyOS上配置GitHub仓库的基本流程。
 
 ## 目录
 
@@ -30,10 +30,10 @@ sudo pacman -S github-cli
 
 ## 生成新SSH密钥
 
-执行以下命令，将`your_email@example.com`替换为GitHub邮箱：
+执行以下命令，将`you@example.com`替换为GitHub邮箱：
 
 ```shell
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "you@example.com"
 ```
 
 按回车键接受默认值
